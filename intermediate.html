@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level Up | Let's Learn AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Let's Learn <span>AI</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Begin</a></li>
+                <li><a href="intermediate.html" class="active">Level Up</a></li>
+                <li><a href="advanced.html">Mastery</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <div class="zen-circle"></div>
+            <div class="progress-indicator">
+                <span class="step">01 Begin</span>
+                <span class="step active">02 Level Up</span>
+                <span class="step">03 Mastery</span>
+            </div>
+            <h1>Level Up Your<br><span class="accent">AI Skills</span></h1>
+            <p class="hero-subtitle">You've started using AI. Now learn to extract real value—better prompts, smarter tool choices, refined workflows.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="intro-section">
+            <h2>The Art of the Prompt</h2>
+            <p>The difference between a mediocre AI response and a brilliant one often comes down to how you ask. A well-crafted prompt is like a well-framed question—it guides the conversation toward exactly what you need.</p>
+            <p>This isn't about memorizing formulas. It's about understanding how to communicate your intent clearly.</p>
+        </section>
+
+        <section class="principles-section">
+            <h2>Core Principles</h2>
+            <div class="principles-grid">
+                <div class="principle-card">
+                    <div class="principle-number">01</div>
+                    <h3>Be Specific</h3>
+                    <p>Vague requests yield vague results. Instead of "help me write," specify the format, tone, audience, and purpose. The AI can't read your mind—give it the context it needs.</p>
+                    <div class="principle-example">
+                        <div class="example-bad">
+                            <span class="example-label">Weak</span>
+                            <p>"Write me a bio"</p>
+                        </div>
+                        <div class="example-good">
+                            <span class="example-label">Strong</span>
+                            <p>"Write a 100-word professional bio for a software engineer's LinkedIn, emphasizing leadership experience and cloud architecture expertise. Tone: confident but approachable."</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="principle-card">
+                    <div class="principle-number">02</div>
+                    <h3>Provide Context</h3>
+                    <p>Share relevant background. What's the situation? Who's the audience? What have you already tried? Context transforms generic responses into tailored solutions.</p>
+                    <div class="principle-example">
+                        <div class="example-bad">
+                            <span class="example-label">Weak</span>
+                            <p>"How do I fix this error?"</p>
+                        </div>
+                        <div class="example-good">
+                            <span class="example-label">Strong</span>
+                            <p>"I'm getting a 'TypeError: Cannot read property of undefined' in my React component when fetching user data. Here's the relevant code: [paste code]. I've already checked that the API returns data correctly."</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="principle-card">
+                    <div class="principle-number">03</div>
+                    <h3>Iterate Freely</h3>
+                    <p>The first response is rarely perfect—and that's fine. Treat AI conversations as collaborative drafts. Ask for revisions, alternatives, or deeper exploration.</p>
+                    <div class="principle-example">
+                        <div class="example-bad">
+                            <span class="example-label">Limiting</span>
+                            <p>Accepting the first response as final</p>
+                        </div>
+                        <div class="example-good">
+                            <span class="example-label">Effective</span>
+                            <p>"Good start. Make it more concise, remove the jargon, and add a call-to-action at the end."</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="principle-card">
+                    <div class="principle-number">04</div>
+                    <h3>Assign a Role</h3>
+                    <p>Frame the AI as an expert in a specific domain. This shapes the perspective, vocabulary, and depth of the response.</p>
+                    <div class="principle-example">
+                        <div class="example-bad">
+                            <span class="example-label">Generic</span>
+                            <p>"Review my business plan"</p>
+                        </div>
+                        <div class="example-good">
+                            <span class="example-label">Focused</span>
+                            <p>"Act as a venture capitalist who has evaluated 500+ startups. Review my business plan and identify the three weakest points an investor would challenge."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tool-selection-section">
+            <h2>Choosing the Right Tool</h2>
+            <p class="section-intro">Each AI has distinct strengths. Matching your task to the right tool multiplies your effectiveness.</p>
+
+            <div class="tool-matrix">
+                <div class="matrix-header">
+                    <div class="matrix-task">Task</div>
+                    <div class="matrix-best">Best Choice</div>
+                    <div class="matrix-why">Why</div>
+                </div>
+                <div class="matrix-row">
+                    <div class="matrix-task">Analyzing a 50-page document</div>
+                    <div class="matrix-best"><strong>Claude</strong></div>
+                    <div class="matrix-why">Largest context window, excellent at synthesis</div>
+                </div>
+                <div class="matrix-row">
+                    <div class="matrix-task">Research with citations needed</div>
+                    <div class="matrix-best"><strong>Perplexity</strong></div>
+                    <div class="matrix-why">Built for sourced research, real-time web access</div>
+                </div>
+                <div class="matrix-row">
+                    <div class="matrix-task">Writing code with debugging</div>
+                    <div class="matrix-best"><strong>Claude or ChatGPT</strong></div>
+                    <div class="matrix-why">Both excel at code; Claude for complex logic, ChatGPT for quick scripts</div>
+                </div>
+                <div class="matrix-row">
+                    <div class="matrix-task">Summarizing YouTube videos</div>
+                    <div class="matrix-best"><strong>Gemini</strong></div>
+                    <div class="matrix-why">Native YouTube integration</div>
+                </div>
+                <div class="matrix-row">
+                    <div class="matrix-task">Working within Excel/Word</div>
+                    <div class="matrix-best"><strong>Copilot</strong></div>
+                    <div class="matrix-why">Embedded in Microsoft Office</div>
+                </div>
+                <div class="matrix-row">
+                    <div class="matrix-task">Creative brainstorming</div>
+                    <div class="matrix-best"><strong>ChatGPT or Claude</strong></div>
+                    <div class="matrix-why">Both offer creative range; personal preference matters</div>
+                </div>
+                <div class="matrix-row">
+                    <div class="matrix-task">Current news or events</div>
+                    <div class="matrix-best"><strong>Perplexity or Gemini</strong></div>
+                    <div class="matrix-why">Real-time web access</div>
+                </div>
+                <div class="matrix-row">
+                    <div class="matrix-task">Image analysis</div>
+                    <div class="matrix-best"><strong>Gemini or Claude</strong></div>
+                    <div class="matrix-why">Strong multimodal capabilities</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="context-section">
+            <h2>Understanding Context Windows</h2>
+            <div class="context-content">
+                <div class="context-explanation">
+                    <p>Every AI has a "context window"—the amount of text it can consider at once. Think of it as working memory. Larger windows mean you can share more documents, longer conversations, and richer context.</p>
+                    <p>When you exceed the window, older content gets "forgotten." For long projects, this means strategically summarizing earlier work or using tools with larger windows.</p>
+                </div>
+                <div class="context-comparison">
+                    <h4>Current Context Sizes</h4>
+                    <div class="context-bar">
+                        <div class="bar-label">Claude</div>
+                        <div class="bar-track">
+                            <div class="bar-fill" style="width: 100%"></div>
+                        </div>
+                        <div class="bar-value">200K tokens</div>
+                    </div>
+                    <div class="context-bar">
+                        <div class="bar-label">Gemini</div>
+                        <div class="bar-track">
+                            <div class="bar-fill" style="width: 50%"></div>
+                        </div>
+                        <div class="bar-value">1M+ tokens</div>
+                    </div>
+                    <div class="context-bar">
+                        <div class="bar-label">ChatGPT</div>
+                        <div class="bar-track">
+                            <div class="bar-fill" style="width: 64%"></div>
+                        </div>
+                        <div class="bar-value">128K tokens</div>
+                    </div>
+                    <div class="context-note">~750 words per 1K tokens</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="workflows-section">
+            <h2>Chaining Tools Together</h2>
+            <p class="section-intro">Real power emerges when you combine tools strategically. Each tool handles what it does best.</p>
+
+            <div class="workflow-examples">
+                <div class="workflow-card">
+                    <div class="workflow-title">Research Workflow</div>
+                    <div class="workflow-steps">
+                        <div class="workflow-step">
+                            <span class="step-num">1</span>
+                            <span class="step-tool">Perplexity</span>
+                            <span class="step-action">Gather sources and initial research</span>
+                        </div>
+                        <div class="workflow-arrow"></div>
+                        <div class="workflow-step">
+                            <span class="step-num">2</span>
+                            <span class="step-tool">Claude</span>
+                            <span class="step-action">Synthesize and write the analysis</span>
+                        </div>
+                        <div class="workflow-arrow"></div>
+                        <div class="workflow-step">
+                            <span class="step-num">3</span>
+                            <span class="step-tool">ChatGPT</span>
+                            <span class="step-action">Generate visuals or diagrams</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="workflow-card">
+                    <div class="workflow-title">Content Creation Workflow</div>
+                    <div class="workflow-steps">
+                        <div class="workflow-step">
+                            <span class="step-num">1</span>
+                            <span class="step-tool">Claude</span>
+                            <span class="step-action">Draft and refine long-form content</span>
+                        </div>
+                        <div class="workflow-arrow"></div>
+                        <div class="workflow-step">
+                            <span class="step-num">2</span>
+                            <span class="step-tool">Gemini</span>
+                            <span class="step-action">Fact-check with web sources</span>
+                        </div>
+                        <div class="workflow-arrow"></div>
+                        <div class="workflow-step">
+                            <span class="step-num">3</span>
+                            <span class="step-tool">ChatGPT</span>
+                            <span class="step-action">Create social media variants</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="workflow-card">
+                    <div class="workflow-title">Code Development Workflow</div>
+                    <div class="workflow-steps">
+                        <div class="workflow-step">
+                            <span class="step-num">1</span>
+                            <span class="step-tool">Claude</span>
+                            <span class="step-action">Architect solution and write code</span>
+                        </div>
+                        <div class="workflow-arrow"></div>
+                        <div class="workflow-step">
+                            <span class="step-num">2</span>
+                            <span class="step-tool">Perplexity</span>
+                            <span class="step-action">Research APIs and documentation</span>
+                        </div>
+                        <div class="workflow-arrow"></div>
+                        <div class="workflow-step">
+                            <span class="step-num">3</span>
+                            <span class="step-tool">Claude</span>
+                            <span class="step-action">Debug and optimize</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mistakes-section">
+            <h2>Common Mistakes</h2>
+            <div class="mistakes-grid">
+                <div class="mistake-card">
+                    <div class="mistake-icon">&#10005;</div>
+                    <h3>Accepting Hallucinations</h3>
+                    <p>AI can confidently state incorrect information. Always verify facts, especially statistics, quotes, and technical details. Use Perplexity for claims that need citations.</p>
+                </div>
+                <div class="mistake-card">
+                    <div class="mistake-icon">&#10005;</div>
+                    <h3>One-Shot Prompting</h3>
+                    <p>Expecting perfection on the first try. The best results come from conversation—refining, redirecting, and iterating until you get exactly what you need.</p>
+                </div>
+                <div class="mistake-card">
+                    <div class="mistake-icon">&#10005;</div>
+                    <h3>Ignoring Context Limits</h3>
+                    <p>Pasting massive documents without considering context windows. The AI may lose track of earlier content. Break large tasks into focused chunks.</p>
+                </div>
+                <div class="mistake-card">
+                    <div class="mistake-icon">&#10005;</div>
+                    <h3>Wrong Tool for the Job</h3>
+                    <p>Using one AI for everything. Each has strengths—research in Perplexity, long documents in Claude, Microsoft tasks in Copilot. Match the tool to the task.</p>
+                </div>
+                <div class="mistake-card">
+                    <div class="mistake-icon">&#10005;</div>
+                    <h3>Vague Success Criteria</h3>
+                    <p>Not defining what "good" looks like. Tell the AI the format, length, tone, and purpose. The clearer your criteria, the better the output.</p>
+                </div>
+                <div class="mistake-card">
+                    <div class="mistake-icon">&#10005;</div>
+                    <h3>Over-Reliance</h3>
+                    <p>Using AI output without review. Always apply your judgment—especially for code, legal text, or anything consequential. AI assists; you decide.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="prompts-section">
+            <h2>Prompt Patterns That Work</h2>
+            <div class="prompts-list">
+                <div class="prompt-pattern">
+                    <h4>The Structured Request</h4>
+                    <div class="prompt-template">
+                        <p>"I need [output type] for [purpose]. The audience is [who]. It should be [length/format]. Tone should be [tone]. Key points to include: [list]. Please avoid [constraints]."</p>
+                    </div>
+                </div>
+                <div class="prompt-pattern">
+                    <h4>The Expert Framing</h4>
+                    <div class="prompt-template">
+                        <p>"Act as [expert role] with [X years] experience in [field]. Review [subject] and provide [specific feedback type]. Focus on [priority areas]."</p>
+                    </div>
+                </div>
+                <div class="prompt-pattern">
+                    <h4>The Step-by-Step</h4>
+                    <div class="prompt-template">
+                        <p>"Walk me through [process] step by step. For each step, explain: what to do, why it matters, and common mistakes to avoid. I'm at [skill level]."</p>
+                    </div>
+                </div>
+                <div class="prompt-pattern">
+                    <h4>The Comparison</h4>
+                    <div class="prompt-template">
+                        <p>"Compare [option A] vs [option B] for [use case]. Create a table with: features, pros, cons, best for, and your recommendation with reasoning."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <h2>Ready for Mastery?</h2>
+            <p>Dive into advanced strategies, future trends, and building your business on AI.</p>
+            <a href="advanced.html" class="cta-button">Continue to Mastery</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Let's Learn AI — Navigating the landscape, together.</p>
+        </div>
+    </footer>
+    <script src="animations.js"></script>
+</body>
+</html>
